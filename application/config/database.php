@@ -44,10 +44,10 @@ mysql, mysqli, postgre, odbc, mssql, sqlite, oci8
 $active_group = 'default';
 $active_record = true;
 
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'myimarke_u525665280_teekay';
-$db['default']['password'] = 'Pointofsales@1';
-$db['default']['database'] = 'myimarke_barkershop';
+$db['default']['hostname'] = 'us-cdbr-east-06.cleardb.net';
+$db['default']['username'] = 'b09c902eea7f3a';
+$db['default']['password'] = '63cf66d4';
+$db['default']['database'] = 'heroku_0ba7e4bb63b0a7b';
 $db['default']['dbdriver'] = 'mysqli';
 $db['default']['dbprefix'] = 'phppos_';
 $db['default']['pconnect'] = false;
@@ -60,5 +60,8 @@ $db['default']['swap_pre'] = '';
 $db['default']['autoinit'] = true;
 $db['default']['stricton'] = false;
 
+
+// mysql://b09c902eea7f3a:63cf66d4@us-cdbr-east-06.cleardb.ne
+// mysql://b09c902eea7f3a:63cf66d4@us-cdbr-east-06.cleardb.net/heroku_0ba7e4bb63b0a7b?reconnect=true
 /* End of file database.php */
 /* Location: ./application/config/database.php */
